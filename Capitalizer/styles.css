@@ -1,0 +1,36 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body > header{
+    flex: 0 0 auto;
+    background-color: #402040;
+    color: #ffffff;
+    padding: 8px;
+}
+
+body> main{
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+body > main > div {
+    flex: 1 0 0;
+    display: flex;
+}
+
+body > main > button {
+    flex: 0 0 auto;
+    flex-direction: row;
+}
+
+body > main > div > textarea{
+    flex: 1 0 0;
+    flex-direction: row;
+    resize: none;
+}
